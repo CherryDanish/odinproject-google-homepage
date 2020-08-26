@@ -1,7 +1,12 @@
-.box {
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .s-field {
     display: flex;
@@ -11,12 +16,81 @@
     margin: auto;
     width: 25%;
     padding: 0px 5px 0px 10px;
-    height: 2em;
+    height: 40px;
     align-items: center;
 }
 .s-icon {
     color: rgb(172, 172, 172);
+    padding-right: 10px;
+    font-size: 15px;
 }
 .remove-border {
     border: hidden;
+}
+.nav-left {
+    color: blue;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.nav-right {
+    padding: 10px;
+    float: right;
+}
+.navbar {
+    padding-bottom: 12em;
+    font-size: 12px;
+}
+a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.search-buttons {
+    text-align: center;
+    padding: 2em;
+}
+.custom-search-button {
+    margin-right: 5px;
+}
+.google-buttons {
+    color: rgb(75, 75, 75);
+    font-weight: 390;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    height: 40px;
+}
+.left-footer-buttons {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: auto;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: small;
+}
+.right-footer-buttons {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: auto;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: small;
+}
+.footer-spacer {
+    margin: 0px 10px 0px 10px;
 }
