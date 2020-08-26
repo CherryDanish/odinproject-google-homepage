@@ -34,8 +34,9 @@ body {
     padding-top: 20px;
 }
 .nav-right {
-    padding: 10px;
     float: right;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 .navbar {
     padding-bottom: 12em;
